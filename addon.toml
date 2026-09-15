@@ -1,0 +1,36 @@
+[addon]
+name = "speechStyles"
+
+# Translators: Summary/title for this add-on, to be shown on installation
+# and in add-on information found in the add-on store.
+summary = "Speech Styles"
+
+# Translators: Long description to be shown for this add-on
+# in add-on information from the add-on store.
+description = """Customizes how NVDA speaks control types and states, text enclosed in quotes and brackets, and source code comments: hide them, change volume, pitch, rate, inflection and voice, or play sounds."""
+
+version = "0.1.0"
+author = "Beka Gozalishvili <beqaprogger@gmail.com>"
+url = "https://github.com/addonfactory/speechStyles"
+sourceURL = "https://github.com/addonfactory/speechStyles"
+docFileName = "readme.html"
+minimumNVDAVersion = "2025.1"
+lastTestedNVDAVersion = "2026.2"
+updateChannel = "stable"
+license = "GPL v2"
+licenseURL = "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
+
+[release]
+tagPrefix = "v"
+autoSubmit = true
+
+[build]
+pythonSources = ["addon/globalPlugins/speechStyles/**/*.py"]
+excludedFiles = []
+
+[l10n]
+baseLanguage = "en"
+extraSources = []
+
+[docs]
+markdownExtensions = []
