@@ -158,9 +158,9 @@ def _describe(what, effects, name=""):
     if name and name != what:
         # Translators: How a named rule is shown in the list. {name} is its name, {what} what it
         # matches, and {effects} what it does to it.
-        return _("{name}: {what} — {effects}").format(name=name, what=what, effects=done)
+        return _("{name}: {what}, {effects}").format(name=name, what=what, effects=done)
     # Translators: How a rule is shown in the list. {what} is what it matches, {effects} what it does.
-    return _("{what} — {effects}").format(what=what, effects=done)
+    return _("{what}, {effects}").format(what=what, effects=done)
 
 
 def _soundEffect():

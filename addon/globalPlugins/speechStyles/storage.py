@@ -34,7 +34,7 @@ MAX_ARCHIVE_SIZE = 64 * 1024 * 1024
 
 CONFIG_SECTION = "speechStyles"
 CONFIG_SPEC = {
-    "enabled": "boolean(default=True)",
+    "enabled": "boolean(default=False)",
     "elementRules": "boolean(default=True)",
     "enclosedText": "boolean(default=False)",
     "comments": "boolean(default=False)",
