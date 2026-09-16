@@ -9,7 +9,7 @@ summary = "Speech Styles"
 # in add-on information from the add-on store.
 description = """Customizes how NVDA speaks control types and states, text enclosed in quotes and brackets, and source code comments: hide them, change volume, pitch, rate, inflection and voice, or play sounds."""
 
-version = "0.1.0"
+version = "0.1.1"
 author = "Beka Gozalishvili <beqaprogger@gmail.com>"
 url = "https://github.com/addonfactory/speechStyles"
 sourceURL = "https://github.com/addonfactory/speechStyles"
